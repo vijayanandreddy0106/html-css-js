@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <title>
+   Create a CSS-only modal/popup design.
+  </title>
+  <link href="../assets/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="top">
+   <h1>
+    HTML CSS JavaScript Practical Programs
+   </h1>
+   <div>
+    Programs • Create a CSS-only modal/popup design.
+   </div>
+  </header>
+  <nav class="nav">
+    <a class="btn" href="../index.html">Home</a>
+    <a class="btn" href="../html/index.html">HTML</a>
+    <a class="btn" href="../css/index.html">CSS</a>
+    <a class="btn" href="../javascript/index.html">JavaScript</a>
+        <a class="btn" href="../README.html">README</a>
+</nav>
+  <main class="wrap">
+   <a class="btn" href="index.html">
+    ← Back to Programs
+   </a>
+   <div class="card">
+    <h2>
+     Create a CSS-only modal/popup design.
+    </h2>
+    <p>
+     Working implementation for the CSS practical program.
+    </p>
+   </div>
+   <div class="card">
+    <input id="open" type="checkbox"/>
+    <label class="btn" for="open">
+     Open Popup
+    </label>
+    <div class="modal">
+     <div class="box">
+      <b>
+       CSS Only Popup
+      </b>
+      <label for="open">
+       Close
+      </label>
+     </div>
+    </div>
+    <style>
+     #open{display:none}.modal{display:none;position:fixed;inset:0;background:#0008;place-items:center}.box{background:white;padding:30px}.modal:has(+ *){display:none}#open:checked~.modal{display:grid}
+    </style>
+   </div>
+  
+   <div class="program-buttons">
+    <a class="btn" href="css-69.html">← Back</a>
+    <a class="btn" href="css-71.html">Next →</a>
+   </div>
+  </main>
+  <footer class="footer">
+   Practical Programs Website
+  </footer>
+ </body>
+</html>

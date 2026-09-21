@@ -1,0 +1,2 @@
+OPEN index.html -> choose HTML/CSS/JavaScript -> click Open Program.
+Recommended: VS Code + Live Server.

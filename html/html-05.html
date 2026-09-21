@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <title>
+   Create a student registration form using HTML form elements.
+  </title>
+  <link href="../assets/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="top">
+   <h1>
+    HTML CSS JavaScript Practical Programs
+   </h1>
+   <div>
+    Programs • Create a student registration form using HTML form elements.
+   </div>
+  </header>
+  <nav class="nav">
+    <a class="btn" href="../index.html">Home</a>
+    <a class="btn" href="../html/index.html">HTML</a>
+    <a class="btn" href="../css/index.html">CSS</a>
+    <a class="btn" href="../javascript/index.html">JavaScript</a>
+        <a class="btn" href="../README.html">README</a>
+</nav>
+  <main class="wrap">
+   <a class="btn" href="index.html">
+    ← Back to Programs
+   </a>
+   <div class="card">
+    <h2>
+     Create a student registration form using HTML form elements.
+    </h2>
+    <p>
+     Working implementation for the HTML practical program.
+    </p>
+   </div>
+   <div class="card">
+    <form onsubmit="event.preventDefault();document.getElementById('out').textContent='Registration submitted for '+name.value">
+     <label>
+      Name
+     </label>
+     <input id="name" required=""/>
+     <label>
+      Email
+     </label>
+     <input required="" type="email"/>
+     <label>
+      Course
+     </label>
+     <select>
+      <option>
+       Computing and Data Science
+      </option>
+      <option>
+       Other
+      </option>
+     </select>
+     <button>
+      Register
+     </button>
+    </form>
+    <div class="result" id="out">
+    </div>
+   </div>
+  
+   <div class="program-buttons">
+    <a class="btn" href="html-04.html">← Back</a>
+    <a class="btn" href="html-06.html">Next →</a>
+   </div>
+  </main>
+  <footer class="footer">
+   Practical Programs Website
+  </footer>
+ </body>
+</html>
